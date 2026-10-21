@@ -1,0 +1,21 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Credentials and private local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Local tooling and temporary artifacts
+node_modules/
+.playwright/
+.playwright-cli/
+test-results/
+*.log
+*.tmp
+*.zip

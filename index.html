@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bagua Compass Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="scene-layer" class="scene-layer" aria-label="Black and white bagua compass scene">
+    <div id="camera-layer" class="camera-layer">
+      <div id="compass-plane" class="compass-plane">
+        <svg
+          id="baguaCompass"
+          class="bagua-compass"
+          viewBox="0 0 1000 1000"
+          role="img"
+          aria-label="A layered taiji and bagua compass drawn with SVG"
+        ></svg>
+      </div>
+      <div id="orbit-layer" class="orbit-layer" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
